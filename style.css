@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --links-button-color: #1E9E6A;
+  --google-button-text-color: #1A202C;
+  --button-text-color: #FFFFFF;
+  --input-text-color: #656769;
+  --input-border-color: #E8E8E8;
+  --input-bg-color: #F7FAFC;
+}
