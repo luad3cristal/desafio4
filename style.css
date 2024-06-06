@@ -5,10 +5,32 @@
 }
 
 :root {
-  --links-button-color: #1E9E6A;
-  --google-button-text-color: #1A202C;
-  --button-text-color: #FFFFFF;
+  --links-button-color: #1e9e6a;
+  --google-button-text-color: #1a202c;
+  --button-text-color: #ffffff;
   --input-text-color: #656769;
-  --input-border-color: #E8E8E8;
-  --input-bg-color: #F7FAFC;
+  --input-border-color: #e8e8e8;
+  --input-bg-color: #f7fafc;
+  --header-bg-color: #f3fff2;
+}
+
+body {
+  font-family: "Archivo", sans-serif;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+header {
+  height: 100vh;
+  width: 50vw;
+  background-color: var(--header-bg-color);
+
+  display: flex;
+  justify-content: center;
+}
+
+header img {
+  width: 70%;
 }
