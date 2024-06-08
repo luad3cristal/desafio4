@@ -165,3 +165,50 @@ button:hover {
     width: 60vw;
   }
 }
+
+@media (max-width: 376px) {
+  main {
+    width: 78vw;
+  }
+
+  #intro h4 {
+    font-weight: 500;
+    font-size: 16px;
+  }
+
+  #intro h2 {
+    font-weight: 600;
+    font-size: 24px;
+  }
+
+  form {
+    gap: 8px;
+  }
+
+  form > label {
+    font-size: 14px;
+  }
+
+  form .input {
+    padding: 8px 11px;
+    font-size: 13px;
+  }
+
+  form #check {
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  form button {
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  form button img {
+    width: 19px;
+  }
+
+  form h4 {
+    font-size: 15px;
+  }
+}
