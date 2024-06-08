@@ -38,6 +38,7 @@ header img {
 
 /* main */
 main {
+  width: 400px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -64,7 +65,6 @@ main #intro {
 }
 
 form {
-  width: 120%;
   display: flex;
 
   flex-direction: column;
@@ -81,10 +81,6 @@ form .input {
 
   font-size: 15px;
 }
-
-/* form input:focus {
-  border-color: #c8c8c8;
-} */
 
 form input {
   background-color: var(--input-bg-color);
@@ -107,8 +103,7 @@ form #check a {
   text-decoration: none;
   color: var(--links-button-color);
 
-  position: relative;
-  left: 19%;
+  margin-left: auto;
 }
 
 form button {
@@ -147,4 +142,26 @@ form h4 {
 form a {
   text-decoration: none;
   color: var(--links-button-color);
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 769px) {
+  header {
+    display: none;
+  }
+
+  body {
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+    overflow: hidden;
+  }
+
+  main {
+    width: 60vw;
+  }
 }
